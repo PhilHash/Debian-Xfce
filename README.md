@@ -56,6 +56,4 @@ sudo ./install.sh
 ```
 if you experience no network after install, it dues to the file in /etc/network/interfaces. Just comment out all the line inside that file and it will let network-manager configure the wifi. Any issues feel free to open at:
 
-```
-https://github.com/PhilHash/My-xfce-debian-install/issues
-```
+`https://github.com/PhilHash/My-xfce-debian-install/issues`
