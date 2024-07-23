@@ -45,7 +45,7 @@ deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-fre
 #deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
 ```
 
-### This script also includes podman, support for bluetooth, vpn, battery percentage, slick-greeter instead of lightdm-gtk-greeter, etc. If you don't want any of them, you can nano and delete unwanted packages.
+### This script also includes podman, support for bluetooth, vpn, battery percentage, slick-greeter instead of lightdm-gtk-greeter, etc. If you don't want any of them, you can nano the install script and delete unwanted packages.
 
 ## Quick install
 
