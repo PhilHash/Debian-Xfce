@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ##my custom xfce on debian
 ##check if you run script with sudo
 if ! [ $(id -u) = 0 ]; then
