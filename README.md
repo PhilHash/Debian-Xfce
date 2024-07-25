@@ -1,6 +1,6 @@
 # My-own-custom-Debian-xfce-install
 
-This is my own way to install Debian xfce on laptop. It lacks firefox-esr but you can install it later if you need cause i don't use firefox-esr. Sr guys! 
+This is my own way to install Debian xfce on laptop. 
 
 ![image](https://github.com/user-attachments/assets/1f161427-307d-4c4a-88dd-93d42d9bbca8)
 
