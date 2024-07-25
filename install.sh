@@ -1,14 +1,5 @@
-#!/usr/bin/env bash
-
-##my custom xfce on debian
-##check if you run script with sudo
-if ! [ $(id -u) = 0 ]; then
-  echo "This script must run with sudo, try again..."
-  exit 1
-fi
-
-
-apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
+##install my packages of xfce on debian
+sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	xfce4-pulseaudio-plugin blueman gnome-disk-utility xfce4-session xfce4-settings \
 	fonts-recommended xfconf xfdesktop4 xfwm4 thunar-volman xfce4-notifyd \
 	xfce4-power-manager mousepad ristretto thunar-archive-plugin parole atril \
