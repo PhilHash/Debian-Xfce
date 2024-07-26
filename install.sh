@@ -1,3 +1,5 @@
+##Hold the old intel driver package
+sudo apt-mark hold xserver-xorg-video-intel
 ##Install my packages of xfce on debian
 sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	xfce4-pulseaudio-plugin blueman gnome-disk-utility xfce4-session xfce4-settings \
@@ -9,8 +11,6 @@ sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	network-manager-gnome libreoffice-calc libreoffice-writer libreoffice-impress \
 	libreoffice-gnome network-manager-openvpn-gnome firewall-config menulibre \
 	libavcodec-extra slick-greeter ttf-mscorefonts-installer firefox-esr unrar
-##Remove old, unnecessary intel driver
-sudo apt purge --auto-remove xserver-xorg-video-intel
 ##Add flathub repo
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ##Make network-manager manages the wifi
