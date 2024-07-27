@@ -1,5 +1,5 @@
 ##Hold the old intel driver package
-sudo apt-mark hold xserver-xorg-video-intel
+sudo apt-mark hold xserver-xorg-video-intel i965-va-driver*
 ##Install my packages of xfce on debian
 sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	xfce4-pulseaudio-plugin blueman gnome-disk-utility xfce4-session xfce4-settings \
