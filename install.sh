@@ -1,5 +1,3 @@
-##Hold some unused driver packages 
-sudo apt-mark hold xserver-xorg-video-intel i965-va-driver* xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-nouveau xserver-xorg-video-radeon xserver-xorg-video-vmware
 ##Install my packages of xfce on debian
 sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	xfce4-pulseaudio-plugin blueman gnome-disk-utility xfce4-session xfce4-settings \
@@ -10,7 +8,9 @@ sudo apt install -y libxfce4ui-utils thunar xfce4-panel gnome-themes-extra \
 	thunderbird flatpak gstreamer1.0-vaapi ffmpeg intel-media-va-driver-non-free \
 	network-manager-gnome libreoffice-calc libreoffice-writer libreoffice-impress \
 	libreoffice-gnome network-manager-openvpn-gnome firewall-config menulibre \
-	libavcodec-extra slick-greeter ttf-mscorefonts-installer firefox-esr unrar
+	libavcodec-extra slick-greeter ttf-mscorefonts-installer firefox-esr unrar \
+ 	xserver-xorg-video-intel- i965-va-driver- i965-va-driver-shaders- xserver-xorg-video-amdgpu- \
+  	xserver-xorg-video-ati- xserver-xorg-video-radeon- xserver-xorg-video-vmware-
 ##Add flathub repo
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ##Make network-manager manages the wifi
