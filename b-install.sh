@@ -8,7 +8,7 @@ sudo apt install -y curl adb filezilla libxfce4ui-utils thunar xfce4-panel gnome
 	thunderbird flatpak gstreamer1.0-vaapi ffmpeg intel-media-va-driver-non-free \
 	network-manager-gnome libreoffice-calc libreoffice-writer libreoffice-impress \
 	libreoffice-gnome network-manager-openvpn-gnome firewall-config menulibre \
-	libavcodec-extra slick-greeter ttf-mscorefonts-installer unrar \
+	libavcodec-extra slick-greeter ttf-mscorefonts-installer unrar papirus-icon-theme clamav clamtk \
  	gvfs-backends xserver-xorg-video-intel- i965-va-driver- i965-va-driver-shaders-
 ##install brave 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
